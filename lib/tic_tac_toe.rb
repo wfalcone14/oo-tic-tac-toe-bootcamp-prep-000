@@ -74,9 +74,7 @@ class TicTacToe
   end
   
   def full?
-    @board.all? do |i|
-     i == "X" || i == "O"
-    end
+    @board.all?{|square| square != " " }
   end
 
   def draw?
