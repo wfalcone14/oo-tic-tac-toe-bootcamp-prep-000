@@ -27,5 +27,6 @@ class TicTacToe
     return input
   end 
   
-  def move(input,)
+  def move(input,player="X")
+    
 end 
