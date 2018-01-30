@@ -31,6 +31,7 @@ class TicTacToe
     @board[input] = player
   end
   
-  def position
-  
+  def position_taken?
+    
+  end
 end 
