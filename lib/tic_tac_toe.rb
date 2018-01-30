@@ -72,6 +72,7 @@ class TicTacToe
       position_taken?(combo[0])
     end
   end
+  
   def full?
     @board.all? do |i|
      i == "X" || i == "O"
